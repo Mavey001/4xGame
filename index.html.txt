@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabri'nin Geleceği</title>
+    <style>
+        body {
+            background-color: #0d0d0d;
+            color: #00ffcc;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            padding: 20px;
+            background: #111;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .container {
+            padding: 20px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 20px;
+            background: #00ffcc;
+            color: #0d0d0d;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        .video-container {
+            margin-top: 30px;
+        }
+        .animation {
+            animation: fadeIn 2s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <header class="animation">Sabri'nin Geleceği - Resmi Oyun Sitesi</header>
+    <div class="container animation">
+        <h1>Geleceğe Hoş Geldiniz</h1>
+        <p>Sabri'nin hikayesini keşfedin ve siberpunk dünyasında kaybolun!</p>
+        <a href="#story" class="btn">Hikaye</a>
+        <a href="#screenshots" class="btn">Ekran Görüntüleri</a>
+        <a href="#contact" class="btn">İletişim</a>
+        <div class="video-container">
+            <h2>Oyun Fragmanı</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+</body>
+</html>
